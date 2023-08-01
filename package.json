@@ -1,0 +1,31 @@
+{
+	"name": "augmented-ally-theme",
+	"version": "1.0.0",
+	"description": "Augmented ally theme ",
+	"private": true,
+	"scripts": {
+		"lint:css": "stylelint **/*.css -i .gitignore",
+		"lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
+		"lint:php": "./vendor/bin/phpcs",
+		"lint:php:fix": "./bin/phpcbf.sh"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kishanjasani/augmented-ally-theme.git"
+	},
+	"keywords": [
+		"kishanjasani",
+		"wp-theme",
+		"block-theme"
+	],
+	"author": "Kishan Jasani",
+	"license": "GPL-2.0-or-later",
+	"bugs": {
+		"url": "https://github.com/kishanjasani/augmented-ally-theme/issues"
+	},
+	"homepage": "https://github.com/kishanjasani/augmented-ally-theme#readme",
+	"devDependencies": {
+		"@wordpress/stylelint-config": "^21.21.0",
+		"stylelint": "^14.16.1"
+	}
+}

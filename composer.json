@@ -1,0 +1,29 @@
+{
+	"name": "kishanjasani/augmentedally",
+	"description": "FSE Theme for Augmeneted Ally",
+	"type": "package",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Themes"
+	],
+	"homepage": "https://github.com/kishanjasani/augmented-ally-theme",
+	"authors": [
+		{
+			"name": "Kishan",
+			"email": "kishanjasani007@yahoo.in"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"wptrt/wpthemereview": "^0.2.1",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
