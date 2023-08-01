@@ -29,6 +29,35 @@
 			"contentSize": "620px",
 			"wideSize": "1260px"
 		},
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#483285"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#D9D2F9"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#BB4430"
+				},
+				{
+					"name": "White",
+					"slug": "white",
+					"color": "#242321"
+				},
+				{
+					"name": "Black",
+					"slug": "black",
+					"color": "#020202"
+				}
+			]
+		},
 		"spacing": {
 			"units": [
 				"%",
@@ -54,7 +83,7 @@
 	},
 	"styles": {
 		"spacing": {
-			"blockGap": "1.5rem"
+			"blockGap": "1.25rem"
 		}
 	}
 }
