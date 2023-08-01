@@ -1,22 +1,22 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.3/theme.json",
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
 	"version": 2,
 	"templateParts": [
 		{
-			"name": "header",
 			"title": "Header",
-			"area": "header"
+			"area": "header",
+			"name": "header"
 		},
 		{
-			"name": "footer",
 			"title": "Footer",
-			"area": "footer"
+			"area": "footer",
+			"name": "footer"
 		}
 	],
 	"customTemplates": [
 		{
-			"name": "no-title",
 			"title": "No Title Template",
+			"name": "no-title",
 			"postTypes": [
 				"page",
 				"post"
@@ -29,35 +29,6 @@
 			"contentSize": "620px",
 			"wideSize": "1260px"
 		},
-		"color": {
-			"palette": [
-				{
-					"name": "Primary",
-					"slug": "primary",
-					"color": "#483285"
-				},
-				{
-					"name": "Secondary",
-					"slug": "secondary",
-					"color": "#D9D2F9"
-				},
-				{
-					"name": "Tertiary",
-					"slug": "tertiary",
-					"color": "#BB4430"
-				},
-				{
-					"name": "White",
-					"slug": "white",
-					"color": "#242321"
-				},
-				{
-					"name": "Black",
-					"slug": "black",
-					"color": "#020202"
-				}
-			]
-		},
 		"spacing": {
 			"units": [
 				"%",
@@ -68,15 +39,44 @@
 				"vw"
 			]
 		},
+		"color": {
+			"palette": [
+				{
+					"color": "#483285",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#D9D2F9",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#BB4430",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#242321",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#020202",
+					"name": "Black",
+					"slug": "black"
+				}
+			]
+		},
 		"typography": {
 			"fluid": true
 		},
 		"custom": {
 			"spacing": {
-				"small": "clamp(20px, 4vw, 40px)",
-				"medium": "clamp(48px, 8vw, 100px)",
 				"large": "clamp(100px, 12vw, 460px)",
-				"outer": "min(4vw, 90px)"
+				"medium": "clamp(48px, 8vw, 100px)",
+				"outer": "min(4vw, 90px)",
+				"small": "clamp(20px, 4vw, 40px)"
 			}
 		},
 		"useRootPaddingAwareAlignments": true
