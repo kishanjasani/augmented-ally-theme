@@ -20,7 +20,7 @@
 		<div class="wp-block-column">
 			<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
 			<div class="wp-block-group">
-				<!-- wp:site-logo {"width":269} /-->
+				<!-- wp:site-logo {"width":230} /-->
 			</div>
 			<!-- /wp:group -->
 
@@ -35,7 +35,7 @@
 			<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading has-medium-font-size">
+				<h3 class="wp-block-heading has-small-font-size">
 					<?php esc_html_e( 'About', 'augmentedally' ); ?>
 				</h3>
 				<!-- /wp:heading -->
@@ -51,7 +51,7 @@
 			<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading has-medium-font-size">
+				<h3 class="wp-block-heading has-small-font-size">
 					<?php esc_html_e( 'Quick Links', 'augmentedally' ); ?>
 				</h3>
 				<!-- /wp:heading -->
@@ -67,7 +67,7 @@
 			<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"level":3} -->
-				<h3 class="wp-block-heading has-medium-font-size">
+				<h3 class="wp-block-heading has-small-font-size">
 					<?php esc_html_e( 'Careers', 'augmentedally' ); ?>
 				</h3>
 				<!-- /wp:heading -->
